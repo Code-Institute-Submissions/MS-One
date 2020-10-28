@@ -21,13 +21,17 @@ body{
     border-bottom: 1px solid #EFF6E0;
 }
 
+.nav-item i{
+    padding-right: 3px;
+    padding-left: 3px;
+}
 /*      End Navbar      */
 
 /*      Background images       */
 .full-width-bg{
     height: 100vh;
     
-    background: url("..//images/full-width-lucian.jpg") no-repeat center center fixed; 
+    background: url("../assets/images/full-width-lucian.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,9 +41,23 @@ body{
 /*      end background      */
 
 /*      Jumbotron and Headings       */
-.icon-container h2{
+.jumbotron-centered{
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.5);
+}
+
+.display-4{
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 1px solid rgba(168,131,37);
     text-align: center;
-    font-family: 'Playfair Display', serif;
+}
+
+.lead{
+    text-align: center;
 }
 
 /*      End J&H     */
@@ -47,21 +65,42 @@ body{
 /*      Icons       */
 .icon-container{
      text-align: center;
+     margin-top: 100px;
+     margin-bottom: 100px;
 }
 
 .icon-container i{
     font-size: 10em;
 }
 
+/*
+
+/*      Icon Colors     */
+.triple-icon-left-color{
+    color: #BFD7EA;
+}
+
+.triple-icon-mid-color{
+    color: #598392;
+}
+
+.triple-icon-right-color{
+    color: #124669;
+}
 /*      End icons       */
 
 /*      Horizontal rules     */
-hr{
-    border-top: 1px solid rgba(168, 131, 37)
+.icon-divider {
+    border-top: 5px solid rgba(168, 131, 37);
+    position: relative;
+    top: 160px;
 }
 /*      End hr      */
 
 /*      3 Cards     */
+.card-container{
+    margin-bottom: 100px;
+}
 .card{
     margin: 0 auto;
     box-shadow: 2px 2px 3px #eff6e0;
@@ -84,5 +123,32 @@ hr{
 }
 
 .card:hover{
-    box-shadow: 9px 9px 9px #eff6e0;
+    box-shadow: 7px 7px 9px #eff6e0;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
+
+/*      Footer      */
+.footer-container{
+    background: #0B0A11;
+    border: none;
+}
+.footer-container i{
+    font-size: 2em;
+    color:#EFF6E0;
+    margin: 5px;
+    float: right;
+}
+
+.footer-container i:hover{
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    color: rgba(168, 131, 37);
+}
+
+/*      My attempt at making my heading sit in the centre of the 
+  I added a new class to my h1 element and called it display-4-center and then created this rule :
+.display-4-center{
+    position: absoloute 
