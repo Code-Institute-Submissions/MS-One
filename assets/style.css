@@ -48,7 +48,12 @@ body{
     background: rgba(0,0,0,0.5);
 }
 
+.jumbo-container{
+    margin: 120px auto;
+}
+
 .display-4{
+    font-size: 3em;
     font-family: "Playfair Display", serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -90,11 +95,12 @@ body{
 /*      End icons       */
 
 /*      Horizontal rules     */
-.icon-divider {
+.icon-divider{
     border-top: 5px solid rgba(168, 131, 37);
     position: relative;
     top: 160px;
 }
+
 /*      End hr      */
 
 /*      3 Cards     */
@@ -103,10 +109,9 @@ body{
 }
 .card{
     margin: 0 auto;
-    box-shadow: 2px 2px 3px #eff6e0;
     width: 280px;
-    background: transparent;
-    border: none;
+    background: #0B0A11;
+    border: 2px solid #EFF6E0;
 }
 .card img{
     padding: 0;
@@ -116,17 +121,17 @@ body{
 }
 
 .card-copy{
-    padding-top: 1em;
+    padding: 1em;
     margin-top: 0;
     background: #eff6e0;
     color: #0b0a11;
 }
 
 .card:hover{
-    box-shadow: 7px 7px 9px #eff6e0;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    border: 2px solid rgba(168,131,37);
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 /*      Footer      */
@@ -141,14 +146,26 @@ body{
     float: right;
 }
 
-.footer-container i:hover{
-    transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
+.footer-container p{
+    margin-top: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.footer-container p i{
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
+.icon-hover:hover{
+    transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
     color: rgba(168, 131, 37);
 }
 
 /*      My attempt at making my heading sit in the centre of the 
   I added a new class to my h1 element and called it display-4-center and then created this rule :
 .display-4-center{
-    position: absoloute 
+    position: absoloute */
+
