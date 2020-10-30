@@ -7,6 +7,18 @@ body{
     font-family: 'Roboto', serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Playfair Display' , serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(168, 131,37);
+    padding-bottom: 5px; 
+}
+
 /*      Navbar      */
 .nav-color{
     background-color: #0B0A11;
@@ -24,6 +36,10 @@ body{
 .nav-item i{
     padding-right: 3px;
     padding-left: 3px;
+}
+
+.dropdown-menu{
+    background: #0B0A11;
 }
 /*      End Navbar      */
 
@@ -96,7 +112,7 @@ body{
 
 /*      Horizontal rules     */
 .icon-divider{
-    border-top: 5px solid rgba(168, 131, 37);
+    border-top: 5px solid rgba(168, 131,37);
     position: relative;
     top: 160px;
 }
@@ -104,30 +120,30 @@ body{
 /*      End hr      */
 
 /*      3 Cards     */
-.card-container{
+.plaque-container{
     margin-bottom: 100px;
 }
-.card{
+.plaque{
     margin: 0 auto;
     width: 280px;
     background: #0B0A11;
     border: 2px solid #EFF6E0;
 }
-.card img{
+.plaque img{
     padding: 0;
     margin: 0;
     width: 100%;
     height: 320px;
 }
 
-.card-copy{
+.plaque-copy{
     padding: 1em;
     margin-top: 0;
     background: #eff6e0;
     color: #0b0a11;
 }
 
-.card:hover{
+.plaque:hover{
     border: 2px solid rgba(168,131,37);
     transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -161,11 +177,29 @@ body{
     transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
-    color: rgba(168, 131, 37);
+    color: rgba(168, 131,37);
 }
 
-/*      My attempt at making my heading sit in the centre of the 
-  I added a new class to my h1 element and called it display-4-center and then created this rule :
-.display-4-center{
-    position: absoloute */
+/*      Abilites Page     */
+/*      Media       */
+.rounded-circle{
+    border: 2px solid rgba(168,131,37);
+    padding: 2px;
+}
 
+.card-body{
+    background: transparent;
+    border: none;
+}
+
+.btn-primary{
+    background: #EFF6E0;
+    color: #0B0A11;
+    border: none;
+    margin-top: 5px;
+}
+
+.btn-primary:hover{
+    background: #0B0A11;
+    color: #EFF6E0;
+}
