@@ -192,6 +192,26 @@ h6{
 }
 
 /*      Abilites Page     */
+.abilities-heading h2{
+    text-align: center;
+}
+
+.abilities-heading p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.champs{
+    float: right;
+    border: 1px solid #eff6e0;
+    background-color: #02394F;
+    padding: 5px;
+}
+
+.champs-heading{
+    text-transform: none;
+}
+
 .collapse{
  margin: auto;
 }
@@ -219,27 +239,7 @@ h6{
     color: #EFF6E0;
 }
 
-.abilities-heading h2{
-    text-align: center;
-}
-
-.abilities-heading p{
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.champs{
-    float: right;
-    border: 1px solid #eff6e0;
-    background-color: #02394F;
-    padding: 5px;
-}
-
-.champs-heading{
-    text-transform: none;
-}
-
-/*          combos      */
+/*          Combos Page     */
 .difficulty-headings{
     margin-top: 50px;
     margin-bottom: 0px;
@@ -309,7 +309,7 @@ h6{
 }
 
 /*      Contacts Page       */
-.wrap-bb{
+.wrap-form{
     background-color: rgba(0,0,0,0.5)
 }
 .contact-heading{
