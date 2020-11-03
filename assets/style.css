@@ -204,3 +204,64 @@ h6{
     background: #0B0A11;
     color: #EFF6E0;
 }
+
+.abilities-heading h2{
+    text-align: center;
+}
+
+.abilities-heading p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.champs{
+    float: right;
+    border: 1px solid #eff6e0;
+    background-color: #02394F;
+    padding: 5px;
+}
+
+.champs-heading{
+    text-transform: none;
+}
+
+/*          combos      */
+.combos-heading{
+    border: none;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    font-size: 2em;
+}
+
+.combos-heading i{
+    font-size: 0.85em;
+}
+
+.video-wrapper iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.tooltip-w,
+.tooltip-q,
+.tooltip-e, 
+.tooltip-aa, 
+.tooltip-aa-one,
+.tooltip-aa-two {
+    display: none;
+    font-size: 0.5em;
+    position: relative;
+    bottom: -10px;
+    left: -10px;
+}
+
+.tip-w{
+    display: inline;
+}
+
+.tip-w:hover .tooltip-w{
+    display: inline;
+}
+
