@@ -130,7 +130,6 @@ h6{
 }
 
 /*      End hr      */
-
 /*      3 Cards     */
 .plaque-container{
     margin-bottom: 100px;
@@ -336,4 +335,18 @@ h6{
 
 .form-control{
     width: 300px;
+}
+
+/*      Media Q        */
+@media only screen and (max-width: 576px){
+    .icon-divider{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .plaque{
+        margin-top: 0 auto;
+        text-align: center;
+    }
 }
