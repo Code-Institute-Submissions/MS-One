@@ -17,9 +17,14 @@ Main features to include are:
 * An interactive 3d image carousel used to navigate to different pages within my site (Bonus feature)
 * Embed video from YouTube with controls added so video can be paused and started (The video will show gameplay of Lucian and using his abilities)
 
-
 ## Features
-.
+### Full Width Backgrounds
+League of Legends is a game with beautiful iamges, called splash artd, used to depict their champions in very settings/situations. I wanted
+to use these images as full width backgrounds - as a way of showcasing them.
+
+### Collapse
+I made use of a few collapse elements, sourced from bootstrap, to help me display the abilities I described on my abilities page. 
+By using a collapse instead of regular iFrames, it helps bring more interactivity into my site whilst also giving users an action to perform whilst using my site.
 
 ## Features Left to Implement
 Potential features to include:
@@ -43,10 +48,18 @@ Potential features to include:
 .
 
 ## Credits
-.
+### Code 
+https://css-tricks.com/perfect-full-page-background-image/ -> Here is where I took the css code for the full width backgrounds used in my project
 
 # Media
-.
+https://www.leaguesplash.com/wp-content/uploads/2013/09/Lucian-Classic.jpg source of 'full-width-lucian.jpg' The image used for my full
+width background on my index page
+
+https://www.unrankedsmurfs.com/blog/lol-ranks-explained source of 'challenger.png', 'master.jpg' and 'grandmaster.jpg' the three images found at the bottom of my
+index page.
+
+All other media I captured myself from the League of Legends game using nvidia shadow play and snipping tool.
 
 ## Acknowledgements
-.
+### w3schools.com
+w3schools was a big help when my css was 
