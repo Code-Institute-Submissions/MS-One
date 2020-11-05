@@ -264,7 +264,6 @@ h6{
 .tip-bork,
 .tip-r {
     font-size: 1.1em;
-    position: relative;
 }
 
 .tip-w i,
@@ -301,7 +300,7 @@ h6{
     letter-spacing: 0;
     text-transform: none;
     position: relative;
-    bottom: -15px;
+    bottom: -60px;
     left: -20px;
 }
 
@@ -316,7 +315,7 @@ h6{
 }
 
 .tip-w:hover .tooltip-w{
-    display: block;
+    display: inline;
 }
 
 /*      Contacts Page       */
