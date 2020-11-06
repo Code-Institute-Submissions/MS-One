@@ -212,6 +212,10 @@ a:hover{
 }
 
 /*      Abilites Page     */
+.abilities-heading{
+    margin: auto;
+    width: 50%;
+}
 .abilities-heading h2{
     text-align: center;
 }
