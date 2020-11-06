@@ -19,7 +19,7 @@ Main features to include are:
 
 ## Features
 ### Full Width Backgrounds
-League of Legends is a game with beautiful iamges, called splash artd, used to depict their champions in very settings/situations. I wanted
+* League of Legends is a game with beautiful iamges, called splash artd, used to depict their champions in very settings/situations. I wanted
 to use these images as full width backgrounds - as a way of showcasing them.
 
 ### Collapse
@@ -29,7 +29,8 @@ By using a collapse instead of regular iFrames, it helps bring more interactivit
 ## Features Left to Implement
 Potential features to include:
 * A forum style page where people can post comments about the state of the champ and his best item build path
-* 
+* More pages on other Champs from League of Legends. Currently the two links in my dropdown circle back to my home page. In the full site, these would link to their own specific 
+guides
 
 ## Technologies Used
 * HTML (links to be added)
