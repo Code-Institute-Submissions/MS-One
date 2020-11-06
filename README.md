@@ -51,6 +51,8 @@ Potential features to include:
 ### Code 
 https://css-tricks.com/perfect-full-page-background-image/ -> Here is where I took the css code for the full width backgrounds used in my project
 
+https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page -> Taught me how to link to a specific part of another html page
+
 # Media
 https://www.leaguesplash.com/wp-content/uploads/2013/09/Lucian-Classic.jpg source of 'full-width-lucian.jpg' The image used for my full
 width background on my index page
@@ -62,4 +64,4 @@ All other media I captured myself from the League of Legends game using nvidia s
 
 ## Acknowledgements
 ### w3schools.com
-w3schools was a big help when my css was 
+w3schools was a big help when it came to helping me get my css to do exactly what I wanted. (Specifically my 'plaque' divs)

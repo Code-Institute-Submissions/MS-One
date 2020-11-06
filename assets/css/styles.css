@@ -20,6 +20,10 @@ h6{
     margin-top: 50px; 
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 /*      Navbar      */
 .nav-color{
     background-color: #0B0A11;
@@ -70,7 +74,7 @@ h6{
 
 /*      Jumbotron and Headings       */
 .jumbotron-centered{
-    height: 80%;
+    height: 70%;
     width: 80%;
     margin: 0 auto;
     background: rgba(0,0,0,0.5);
@@ -92,6 +96,22 @@ h6{
 .lead{
     text-align: center;
 }
+
+.jumbo-circle{
+    text-align: center;
+}
+
+.made-circle{
+    background: transparent;
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+    border: 1px solid rgba(168,131,37);
+    display: inline-block;
+    margin: 15px 15px;
+}
+
+
 
 /*      End J&H     */
 
@@ -347,5 +367,9 @@ h6{
     .plaque{
         margin-top: 0 auto;
         text-align: center;
+    }
+
+    .jumbo-circle{
+        display: none;
     }
 }
