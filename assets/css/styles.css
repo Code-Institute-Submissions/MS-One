@@ -376,4 +376,8 @@ a:hover{
     .jumbo-circle{
         display: none;
     }
+
+    .plaque-container{
+        margin: 20px auto;
+    }
 }
