@@ -51,7 +51,6 @@ a:hover{
 .dropdown-menu{
     background: #0B0A11;
 }
-/*      End Navbar      */
 
 /*      Background images       */
 .full-width-bg{
@@ -63,6 +62,19 @@ a:hover{
     -o-background-size: cover;
     background-size: cover;
     z-index: 0;
+
+    animation-name: bg-zoom;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bg-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.04);
+    }
 }
 
 .contact-full-width-bg{
@@ -75,7 +87,6 @@ a:hover{
     background-size: cover;
     z-index: 0;
 }
-/*      end background      */
 
 /*      Jumbotron and Headings       */
 .jumbotron-centered{
@@ -116,10 +127,6 @@ a:hover{
     margin: 15px 15px;
 }
 
-
-
-/*      End J&H     */
-
 /*      Icons       */
 .icon-container{
      text-align: center;
@@ -130,8 +137,6 @@ a:hover{
 .icon-container i{
     font-size: 10em;
 }
-
-/*
 
 /*      Icon Colors     */
 .triple-icon-left-color{
@@ -145,7 +150,6 @@ a:hover{
 .triple-icon-right-color{
     color: #124669;
 }
-/*      End icons       */
 
 /*      Horizontal rules     */
 .icon-divider{
@@ -154,7 +158,6 @@ a:hover{
     top: 160px;
 }
 
-/*      End hr      */
 /*      3 Cards     */
 .plaque-container{
     margin-bottom: 100px;
@@ -246,6 +249,7 @@ a:hover{
 .collapse{
  margin: auto;
 }
+
 /*      Media       */
 .rounded-circle{
     border: 2px solid rgba(168,131,37);
@@ -369,11 +373,7 @@ a:hover{
     width: 300px;
 }
 
-.contact-btn{
-    font-weight: 1.1em;
-}
-
-/*      Media Q        */
+/*      Media Queries        */
 @media only screen and (max-width: 576px){
     .icon-divider{
         position: absolute;
