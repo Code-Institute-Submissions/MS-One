@@ -34,6 +34,11 @@ a:hover{
     color:#EFF6E0;
 }
 
+.nav-icon{
+    color: #EFF6E0;
+    font-size: 1.2em;
+}
+
 .active{
     border-bottom: 1px solid #EFF6E0;
 }
@@ -172,6 +177,10 @@ a:hover{
     margin-top: 0;
     background: #eff6e0;
     color: #0b0a11;
+}
+
+.plaque-copy h3{
+    margin-top: 15px;
 }
 
 .plaque:hover{
@@ -369,7 +378,7 @@ a:hover{
     }
 
     .plaque{
-        margin-top: 0 auto;
+        margin-top: 30px;
         text-align: center;
     }
 
@@ -378,6 +387,10 @@ a:hover{
     }
 
     .plaque-container{
-        margin: 20px auto;
+        margin: 10%;
+    }
+
+    .triple-icon{
+        margin: auto;
     }
 }
