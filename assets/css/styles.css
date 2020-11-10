@@ -353,20 +353,24 @@ a:hover{
 
 /*      Contacts Page       */
 .wrap-form{
+    margin-top: 90px;
     background-color: rgba(0,0,0,0.5)
 }
 .contact-heading{
-    border-bottom: none;
-    margin-top: 0px;
+    padding-top: 15px;
 }
 
 .holder{
-    margin: auto;
+    margin-left: 60px;
     width: 50%;
 }
 
 .form-control{
     width: 300px;
+}
+
+.contact-btn{
+    font-weight: 1.1em;
 }
 
 /*      Media Q        */
@@ -392,5 +396,9 @@ a:hover{
 
     .triple-icon{
         margin: auto;
+    }
+
+    .form-control{
+        width: 200px;
     }
 }
