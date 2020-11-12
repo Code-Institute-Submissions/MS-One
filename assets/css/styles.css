@@ -162,7 +162,7 @@ a:hover{
 /* E */
 /*      Intro       */
 .intro-text{
-    margin: 100px 50px 150px 100px;
+    margin: 100px 50px 15px 100px;
     text-align: center;
 }
 
@@ -178,8 +178,27 @@ a:hover{
     border-bottom: 1px solid rgba(168,131,37);
     border-right: 1px solid rgba(168,131,37);
     margin-top: 100px;
-    margin-bottom: 150px;
+    margin-bottom: 15px;
     padding: 5px;
+}
+
+/*      Page Breaks     */
+.page-break{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.page-break img{
+    height: 70px;
+    width: 70px;
+}
+
+.page-break hr{
+    display: inline-block;
+    background-color: rgba(168,131,37);
+    width: 100px;
+    position: relative;
+    top: 15px;
 }
 
 /*      3 Cards     */
