@@ -68,6 +68,10 @@ a:hover{
     animation-fill-mode: forwards;
 }
 
+.bg-overflow{
+    overflow: hidden;
+}
+
 @keyframes bg-zoom {
     from {
         transform: scale(1);
@@ -90,7 +94,7 @@ a:hover{
 
 /*      Jumbotron and Headings       */
 .jumbotron-centered{
-    height: 70%;
+    height: 80%;
     width: 80%;
     margin: 0 auto;
     background: rgba(0,0,0,0.5);
@@ -98,6 +102,26 @@ a:hover{
 
 .jumbo-container{
     margin: 120px auto;
+}
+
+.one-twenty-circle-sam{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-image: url("../images/samira-potrait.png");
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 0px;  
+}
+
+.one-twenty-circle-xayah{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-image: url("../images/xayah-potrait.png");
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 0px;  
 }
 
 .display-4{
@@ -113,16 +137,14 @@ a:hover{
     text-align: center;
 }
 
-.jumbo-circle{
+.adc-img-centre{
     text-align: center;
 }
 
-.made-circle{
+.adc-img {
     background: transparent;
-    height: 120px;
-    width: 120px;
-    border-radius: 120px;
-    border: 1px solid rgba(168,131,37);
+    height: 250px;
+    width: 250px;
     display: inline-block;
     margin: 15px 15px;
 }
@@ -137,25 +159,27 @@ a:hover{
 .icon-container i{
     font-size: 10em;
 }
-
-/*      Icon Colors     */
-.triple-icon-left-color{
-    color: #BFD7EA;
+/* E */
+/*      Intro       */
+.intro-text{
+    margin: 100px 50px 150px 100px;
+    text-align: center;
 }
 
-.triple-icon-mid-color{
-    color: #598392;
+.intro-text hr{
+    background-color: rgba(168,131,37);
+    border: rgba(168,131,37);
+    width: 25px;
+    height: 1px;
 }
 
-.triple-icon-right-color{
-    color: #124669;
-}
-
-/*      Horizontal rules     */
-.icon-divider{
-    border-top: 5px solid rgba(168, 131,37);
-    position: relative;
-    top: 160px;
+.intro-gif{
+    float: right;
+    border-bottom: 1px solid rgba(168,131,37);
+    border-right: 1px solid rgba(168,131,37);
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding: 5px;
 }
 
 /*      3 Cards     */
@@ -360,6 +384,10 @@ a:hover{
     margin-top: 90px;
     background-color: rgba(0,0,0,0.5)
 }
+
+.wrap-form img{
+    float: right;
+}
 .contact-heading{
     padding-top: 15px;
 }
@@ -402,3 +430,24 @@ a:hover{
         width: 200px;
     }
 }
+
+/*       Icon Colors     
+.triple-icon-left-color{
+    color: #BFD7EA;
+}
+
+.triple-icon-mid-color{
+    color: #598392;
+}
+
+.triple-icon-right-color{
+    color: #124669;
+}
+
+/*      Horizontal rules     
+.icon-divider{
+    border-top: 5px solid rgba(168, 131,37);
+    position: relative;
+    top: 160px;
+}
+ */
