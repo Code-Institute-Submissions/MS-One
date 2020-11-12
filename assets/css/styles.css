@@ -68,6 +68,21 @@ a:hover{
     animation-fill-mode: forwards;
 }
 
+.full-width-bg-ability{
+    height: 80vh;
+    
+    background: url("../images/lucian-bg-highnoon.jpg") no-repeat top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+
+    animation-name: bg-zoom;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+
 .bg-overflow{
     overflow: hidden;
 }
