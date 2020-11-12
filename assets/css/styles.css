@@ -222,7 +222,7 @@ a:hover{
 }
 .plaque{
     margin: 0 auto;
-    width: 480px;
+    width: 300px;
     background: #0B0A11;
     border: 2px solid #EFF6E0;
 }
@@ -282,6 +282,39 @@ a:hover{
 }
 
 /*      Abilites Page     */
+.table {
+    margin: 100px 0px 100px 50px;
+}
+
+.arrow-left{
+    margin-top: 200px;
+    margin-left: 130px;
+    font-size: 3.5em;
+    color: rgba(168,131,37);
+}
+
+.table-img{
+    padding: 0px;
+    text-align: center;
+}
+
+
+.table-text{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.table-text hr{
+    background-color: rgba(168,131,37);
+    border: rgba(168,131,37);
+    width: 25px;
+    height: 1px;
+}
+
+td {
+    text-align: center;
+    padding-top: 15px;
+}
 .abilities-heading{
     margin: auto;
     width: 50%;
