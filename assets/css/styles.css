@@ -281,24 +281,35 @@ a:hover{
 .footer-container{
     background: #0B0A11;
     border-top: 1px solid #EFF6E0;
-}
-.footer-container i{
-    font-size: 2em;
-    color:#EFF6E0;
-    margin: 5px;
-    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.footer-container p{
-    margin-top: 5px;
-    margin-left: 100px;
+.footer-center-align{
+    text-align: center;
+}
+
+.triple-icon-left-color{
+    color: #BFD7EA;
+}
+
+.triple-icon-mid-color{
+    color: #598392;
+}
+
+.triple-icon-right-color{
+    color: #124669;
+}
+
+.footer-text{
     text-transform: uppercase;
-    display: inline-block;
 }
 
-.footer-container p i{
-    font-size: 0.8em;
-    vertical-align: super;
+.footer-anchors a i{
+    text-decoration: none;
+    color: #EFF6E0;
+    font-size: 2.4em;
+    margin-right: 5px;
 }
 
 .icon-hover:hover{
@@ -361,6 +372,35 @@ td {
     text-align: center;
     padding-top: 15px;
 }
+
+.mini-item-heading{
+    margin: 100px 50px 15px 100px;
+}
+
+.mini-item-banner {
+    text-align: center;
+}
+
+.mini-item-banner-wrap{
+    margin: 100px 50px 15px 100px;
+}
+
+.mini-item-banner h6{
+    margin-top: 10px;
+}
+
+.mini-item-banner img{
+    margin-bottom: 5px;
+}
+
+.mini-item-banner p{
+    margin-bottom: 15px;
+}
+
+.mini-item-banner-text{
+    margin-top: 25px;
+}
+
 .abilities-heading{
     margin: auto;
     width: 50%;
@@ -544,23 +584,5 @@ td {
     }
 }
 
-/*       Icon Colors     
-.triple-icon-left-color{
-    color: #BFD7EA;
-}
+    
 
-.triple-icon-mid-color{
-    color: #598392;
-}
-
-.triple-icon-right-color{
-    color: #124669;
-}
-
-/*      Horizontal rules     
-.icon-divider{
-    border-top: 5px solid rgba(168, 131,37);
-    position: relative;
-    top: 160px;
-}
- */
