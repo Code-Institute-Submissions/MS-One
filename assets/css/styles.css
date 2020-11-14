@@ -196,6 +196,10 @@ a:hover{
     text-align: center;
 }
 
+.intro-end-text{
+    margin: 100px 50px 15px 100px;
+}
+
 .intro-text hr{
     background-color: rgba(168,131,37);
     border: rgba(168,131,37);
@@ -212,11 +216,18 @@ a:hover{
     padding: 5px;
 }
 
+.intro-end-gif{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
 /*      Page Breaks     */
 .page-break{
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 .page-break img{
     height: 70px;
