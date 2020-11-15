@@ -322,6 +322,13 @@ a:hover{
 /*      Abilites Page     */
 .table {
     margin: 0px 0px 100px 50px;
+    border-collapse: separate;
+    border-spacing: 0.3em;
+    width: 100%;
+}
+
+td {
+    width: 5%;
 }
 
 .table-borderless > tbody > tr > td,
@@ -336,13 +343,28 @@ a:hover{
 } /*https://stackoverflow.com/questions/18075794/bootstrap-table-without-stripe-borders from user David Pastore as the bootstrap class table-borderless wasn't getting rid of the borders in my table*/
 
 .table td{
-    background: rgba(0,0,0,0.1);
+    background:rgba(168,131,37,0.4);
 }
 
 tr>.level-up{
     background: rgba(168,131,37);
 }
 
+#q-img{
+    background-image: url("../images/Q.JPG");
+}
+
+#w-img{
+    background-image: url("../images/w.JPG");
+}
+
+#e-img{
+    background-image: url("../images/E.JPG");
+}
+
+#r-img{
+    background-image: url("../images/r.JPG");
+}
 .arrow-left{
     margin-top: 100px;
     margin-left: 130px;
