@@ -223,6 +223,10 @@ a:hover{
     padding: 5px;
 }
 
+.figure-caption{
+    color: #EFF6E0;
+}
+
 /*      Page Breaks     */
 .page-break{
     text-align: center;
@@ -283,6 +287,7 @@ a:hover{
     border-top: 1px solid #EFF6E0;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-top: 100px;
 }
 
 .footer-center-align{
@@ -321,7 +326,7 @@ a:hover{
 
 /*      Abilites Page     */
 .table {
-    margin: 0px 0px 100px 50px;
+    margin: 50px 0px 100px 50px;
     border-collapse: separate;
     border-spacing: 0.3em;
     width: 100%;
@@ -343,7 +348,7 @@ td {
 } /*https://stackoverflow.com/questions/18075794/bootstrap-table-without-stripe-borders from user David Pastore as the bootstrap class table-borderless wasn't getting rid of the borders in my table*/
 
 .table td{
-    background:rgba(168,131,37,0.4);
+    background:rgba(168,131,37,0.1);
 }
 
 tr>.level-up{
@@ -365,6 +370,10 @@ tr>.level-up{
 #r-img{
     background-image: url("../images/r.JPG");
 }
+
+#passive-img{
+    background-image: url("../images/passive.JPG")
+}
 .arrow-left{
     margin-top: 100px;
     margin-left: 130px;
@@ -380,14 +389,11 @@ tr>.level-up{
 
 .table-text{
     text-align: center;
-    margin-top: 0px;
+    margin-top: 50px;
 }
 
-.table-text hr{
-    background-color: rgba(168,131,37);
-    border: rgba(168,131,37);
-    width: 25px;
-    height: 1px;
+.table-text i{
+    font-size: 4em;
 }
 
 td {
