@@ -512,11 +512,23 @@ td {
 }
 
 .bg-danger-alt{
-    background: rgb(236, 4, 4);
+    background: rgba(236, 4, 4);
 }
 
 .bg-info-alt{
-    background: rgb(247, 36, 247);
+    background: rgba(247, 36, 247);
+}
+
+.bg-danger-alt-ad{
+    background: rgb(253, 165, 0);
+}
+
+.bg-success-alt-ad{
+    background: rgba(22, 6, 245);
+}
+
+.bg-info-alt-ad{
+    background: rgba(6, 240, 111);
 }
 
 .combos-heading{
