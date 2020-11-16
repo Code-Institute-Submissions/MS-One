@@ -216,7 +216,8 @@ a:hover{
     padding: 5px;
 }
 
-.intro-end-gif{
+.intro-end-gif,
+.combo-gif {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 15px;
@@ -480,6 +481,44 @@ td {
 }
 
 /*          Combos Page     */
+.support-cards{
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.run-off-bg{
+    background: #0B0A11;
+}
+
+.support-list{
+    height: 32px;
+    width: 32px;
+    display:inline-block;
+}
+
+.support-heading{
+    display: inline-block;
+}
+
+.progress{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #EFF6E0;
+}
+
+.progress-bar-text{
+    font-size: 1.5em;
+    margin: 15px auto;
+}
+
+.bg-danger-alt{
+    background: rgb(236, 4, 4);
+}
+
+.bg-info-alt{
+    background: rgb(247, 36, 247);
+}
+
 .combos-heading{
     text-align: center;
     margin-right: 20px;
@@ -499,22 +538,6 @@ td {
     margin-bottom: 50px;
 }
 
-.tip-q,
-.tip-e,
-.tip-w,
-.tip-ew,
-.tip-bork,
-.tip-r {
-    font-size: 1.1em;
-}
-
-.tip-w i,
-.tip-q i,
-.tip-e i,
-.tip-bork i{
-    font-size: 0.85em;
-}
-
 .combos-text p{
     margin-right:20px;
     margin-left: 20px;
@@ -527,37 +550,8 @@ td {
     margin:50px 0px 25px 0px;
 }
 
-.tooltip-w,
-.tooltip-q,
-.tooltip-e, 
-.tooltip-aa, 
-.tooltip-aa-one,
-.tooltip-aa-two,
-.tooltip-ew,
-.tooltip-bork,
-.tooltip-aa-three,
-.tooltip-r {
-    display: none;
-    font-size: 0.7em;
-    letter-spacing: 0;
-    text-transform: none;
-    position: relative;
-    bottom: -60px;
-    left: -20px;
-}
-
-.tip-q,
-.tip-w,
-.tip-e,
-.tip-aa,
-.tip-ew,
-.tip-bork,
-.tip-r {
+.key-stroke{
     display: inline-block;
-}
-
-.tip-w:hover .tooltip-w{
-    display: inline;
 }
 
 /*      Contacts Page       */
