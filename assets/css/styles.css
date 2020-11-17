@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+display:wght@400;500;600;700&family=Roboto&display=swap');
+hr{
+    margin-block-start: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 body{
     color: #EFF6E0;
@@ -305,7 +316,7 @@ a:hover{
 
 /*      Abilites Page     */
 .table {
-    margin: 50px 0px 100px 50px;
+    margin: 50px 0px 100px 0px;
     border-collapse: separate;
     border-spacing: 0.3em;
     width: 100%;
@@ -353,12 +364,6 @@ tr>.level-up{
 #passive-img{
     background-image: url("../images/passive.JPG")
 }
-.arrow-left{
-    margin-top: 100px;
-    margin-left: 130px;
-    font-size: 3.5em;
-    color: rgba(168,131,37);
-}
 
 .table-img{
     padding: 0px;
@@ -369,6 +374,7 @@ tr>.level-up{
 .table-text{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .table-text i{
@@ -434,6 +440,10 @@ td {
 .superlative{
     vertical-align: super;
     font-size:0.8em;
+}
+
+.figure-caption{
+    text-align: center;
 }
 
 .abilities-heading{
@@ -639,6 +649,41 @@ input::placeholder{
 
 /*      Media Queries        */
 @media only screen and (max-width: 576px){
+    .adc-img-centre{
+        display: none;
+    }
+
+    .intro-gif{
+        margin: 50px auto;
+        width: 100vw;
+    }
+
+    .intro-text,
+    .intro-end-text{
+        margin: 50px 15px 50px 15px;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .support-text{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .support-cards{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .support-text, .figure-combos{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .thresh-mobile{
+        margin-top:25px;
+        margin-bottom: 25px;
+    }
+
     .icon-divider{
         position: absolute;
         top: 0;
@@ -646,7 +691,7 @@ input::placeholder{
     }
 
     .plaque{
-        margin-top: 30px;
+        margin: 30px auto;
         text-align: center;
     }
 
@@ -664,6 +709,10 @@ input::placeholder{
 
     .form-control{
         width: 200px;
+    }
+
+    .wrap-form{
+        z-index: 1000;
     }
 }
 
