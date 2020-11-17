@@ -154,8 +154,13 @@ a:hover{
     text-align: center;
 }
 
-.lead{
+.lead, .lead-two{
     text-align: center;
+}
+
+.lead-two{
+    font-size: 1.25em;
+    font-weight: 300;
 }
 
 .adc-img-centre{
