@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+display:wght@400;500;600;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
 hr{
     margin-block-start: 0;
 }
@@ -14,7 +15,7 @@ html,body{
 body{
     color: #EFF6E0;
     background:#0B0A11;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Roboto', serif;
 }
 
@@ -33,6 +34,10 @@ h6{
 
 a:hover{
     text-decoration: none;
+}
+
+.bold{
+    font-weight: 500;
 }
 
 /*      Navbar      */
@@ -218,6 +223,11 @@ a:hover{
     padding: 5px;
 }
 
+.intro-end-gif-text{
+    margin: 50px auto;
+    text-align: center;
+}
+
 .figure-caption{
     color: #EFF6E0;
 }
@@ -227,13 +237,23 @@ a:hover{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 75px;
+
 }
-.page-break img{
+
+.page-break-lg{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.page-break img,
+.page-break-lg img{
     height: 70px;
     width: 70px;
 }
 
-.page-break hr{
+.page-break hr,
+.page-break-lg hr{
     display: inline-block;
     background-color: rgba(168,131,37);
     width: 100px;
@@ -320,8 +340,12 @@ a:hover{
 }
 
 /*      Abilites Page     */
+.table-heading{
+    margin-top: 0px;
+}
+
 .table {
-    margin: 50px 0px 100px 0px;
+    margin: 50px 0px 25px 0px;
     border-collapse: separate;
     border-spacing: 0.3em;
     width: 100%;
@@ -378,8 +402,7 @@ tr>.level-up{
 
 .table-text{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
 }
 
 .table-text i{
@@ -389,6 +412,38 @@ tr>.level-up{
 td {
     text-align: center;
     padding-top: 15px;
+}
+
+/*      Rune Tree       */
+.rune-text{
+    margin-top: 50px;
+}
+
+.rune-tree{
+    text-align: center;
+}
+
+.rune-tree-heading{
+    text-align: center;
+}
+
+.main-rune-hero{
+    width: 75px;
+    height: 75px;
+}
+
+.rune-tree{
+    margin-top: 25px;
+}
+
+.rune-tree-small{
+    width: 45px;
+    height: 45px;
+}
+
+.main-rune{
+    width: 65px;
+    height: 65px;
 }
 
 .green-plus{
@@ -410,7 +465,7 @@ td {
 }
 
 .mini-item-banner-wrap{
-    margin: 100px 50px 15px 100px;
+    margin: 50px 50px 15px 100px;
 }
 
 .mini-item-banner h6{
@@ -440,6 +495,7 @@ td {
 
 .mini-item-banner-text{
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .superlative{
@@ -449,6 +505,11 @@ td {
 
 .figure-caption{
     text-align: center;
+}
+
+.abilities-wrap{
+    margin-top: 50px;
+    margin-bottom: 75px;
 }
 
 .abilities-heading{
@@ -655,8 +716,9 @@ input::placeholder{
 
 /*      Media Queries        */
 @media only screen and (max-width: 576px){
-    .adc-img-centre{
-        display: none;
+    .adc-img{
+        height: 75px;
+        width: 75px;
     }
 
     .lead-two{
@@ -726,5 +788,23 @@ input::placeholder{
     }
 }
 
-    
+@media only screen and (max-width: 768px){
+    .plaque,
+    .intro-text,
+    .intro-gif-wrap,
+    .intro-gif-wrap{
+        margin: 30px auto;
+        text-align: center;
+    }
 
+    .adc-img{
+        height: 75px;
+        width: 75px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+
+}
