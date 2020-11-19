@@ -1,8 +1,13 @@
-# Milestone Project One: Mini Champion guide
+# Milestone Project One: Champion guide
 In this project, I hope to display the skills I have learnt so far in coding appealing and eye-catching websites using HTML and CSS. 
 League of Legends is one of the biggest MOBA (Multiplayer Online Battle Arena) games around with 151 unique champions to currently pick and choose from.
 The purpose of my project is to give insight and indepth knowledge of one of those champions, Lucian. Lucian has one of the biggest skill gaps when comparing new 
 and experienced players, the main goal of my website is to help bridge that gap.
+
+Most League of Legends players choose to 'main' a role and a champ. This means they put most of their play time into their specific position (Top, jungle, Mid, Bot and Support).
+Players then also further specialise by putting most of their time into a few specific champions that do well in their preferred role. LoL sites usually focus most of their attention 
+on the statistics of a champ and how their winrate is performing during the current patch (most patches last two weeks). By presenting the information I have, gained throufh play experience,
+and by then presenting it in a more graphical nature, my aim is to help players gain more knowledge on champs they may not be comfortable playing.
 
 ## UX
 One thing all champions have in common is 3 basic abilites and 1 ultimate ability bound to 4 separate keys (usually QWER) that have varying cooldowns after use.
@@ -21,6 +26,9 @@ Main features to include are:
 ### Full Width Backgrounds
 * League of Legends is a game with beautiful iamges, called splash artd, used to depict their champions in very settings/situations. I wanted
 to use these images as full width backgrounds - as a way of showcasing them.
+
+### Interactive Cards
+* 3 interactive cards, gold hover effect, with a teaser of the section they link to. Example, the card that describes lucian laning links to 3 of the top supports that he likes to lane with.
 
 ### Collapse
 I made use of a few collapse elements, sourced from bootstrap, to help me display the abilities I described on my abilities page. 
