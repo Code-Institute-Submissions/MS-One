@@ -351,7 +351,12 @@ a:hover{
     width: 100%;
 }
 
-td {
+td,
+.level-up,
+#q-img,
+#w-img,
+#e-img,
+#r-img{
     width: 5%;
 }
 
@@ -375,23 +380,23 @@ tr>.level-up{
 }
 
 #q-img{
-    background-image: url("../images/Q.JPG");
+    background-image: url("../images/q.jpg");
 }
 
 #w-img{
-    background-image: url("../images/w.JPG");
+    background-image: url("../images/w.jpg");
 }
 
 #e-img{
-    background-image: url("../images/E.JPG");
+    background-image: url("../images/e.jpg");
 }
 
 #r-img{
-    background-image: url("../images/r.JPG");
+    background-image: url("../images/r.jpg");
 }
 
 #passive-img{
-    background-image: url("../images/passive.JPG")
+    background-image: url("../images/passive.jpg")
 }
 
 .table-img{
