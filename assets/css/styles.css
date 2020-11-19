@@ -444,6 +444,10 @@ td {
     height: 65px;
 }
 
+.gold-cirlce{
+    color: rgba(168, 131,37);
+}
+
 .green-plus{
     color: green;
     font-size: 1.2em;
@@ -693,32 +697,36 @@ td {
 }
 
 /*      Contacts Page       */
-.wrap-form{
-    margin-top: 100px;
-    margin-left: 450px;
+.contact-heading{
+    width: 275px;
+    text-align: center;
 }
 
-.wrap-form-gif{
-    margin-top: 150px;
+.form-wrap{
+    margin-top: 200px;
 }
 
-.wrap-form img{
-    float: right;
-}
-
-.holder{
-    margin-left: 60px;
-    width: 50%;
+.form-container{
+    margin: 60px auto;
 }
 
 .form-control{
-    width: 300px;
+    width: 275px;
     background: #0B0A11;
 }
 
 input::placeholder{
     color: rgba(168,131,37);
     opacity: 1;
+}
+
+form{
+    position: relative;
+}
+
+.wrap-form-gif{
+    margin-left: 15px;
+    float: right;
 }
 
 /*      Media Queries        */
@@ -855,5 +863,9 @@ input::placeholder{
     .thresh-figure-combo,
     .support-text-leo-mq{
         margin-top: 50px;
+    }
+
+    .wrap-form-gif{
+        display:none;
     }
 }
