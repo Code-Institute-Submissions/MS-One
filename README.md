@@ -38,12 +38,13 @@ guides
 
 * Bootstrap
   * Used to make styling my page easier
+  * Bootstraps java library is also used for two elements, namely the nav collapse and for my tooltips
 
 * CSS
   * Used to make my website unique
 
 ## Testing
-.
+
 
 ## Deployment
 .
@@ -61,7 +62,9 @@ width background on my index page
 https://www.unrankedsmurfs.com/blog/lol-ranks-explained source of 'challenger.png', 'master.jpg' and 'grandmaster.jpg' the three images found at the bottom of my
 index page.
 
-All other media I captured myself from the League of Legends game using nvidia shadow play and snipping tool.
+https://leagueoflegends.fandom.com/wiki/ source of 
+
+All gifs and embed videos I captured myself from the League of Legends game using nvidia shadow play.
 
 ## Acknowledgements
 ### w3schools.com

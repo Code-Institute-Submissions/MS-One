@@ -64,7 +64,7 @@ a:hover{
 .full-width-bg{
     height: 100vh;
     
-    background: url("../images/full-width-lucian.jpg") no-repeat center center fixed; 
+    background: url("https://res.cloudinary.com/dksxe1yku/image/upload/v1605823820/fullwidthlucian_t66ov8.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,7 +79,7 @@ a:hover{
 .full-width-bg-ability{
     height: 80vh;
     
-    background: url("../images/lucian-bg-highnoon.jpg") no-repeat top center fixed; 
+    background: url("https://res.cloudinary.com/dksxe1yku/image/upload/v1605823825/lucian-bg-highnoon_bqtari.jpg") no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -94,7 +94,7 @@ a:hover{
 .full-width-bg-combos{
     height: 80vh;
     
-    background: url("../images/project-lucian-45.jpg") no-repeat top center fixed; 
+    background: url("https://res.cloudinary.com/dksxe1yku/image/upload/v1605823816/project-lucian-45_u5lpxc.jpg") no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -122,7 +122,7 @@ a:hover{
 .contact-full-width-bg{
     height: 100vh;
     
-    background: url("../images/project-lucian-45.jpg") no-repeat center center fixed; 
+    background: url("https://res.cloudinary.com/dksxe1yku/image/upload/v1605823816/project-lucian-45_u5lpxc.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -166,8 +166,8 @@ a:hover{
 
 .adc-img {
     background: transparent;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     display: inline-block;
     margin: 15px 15px;
 }
@@ -374,23 +374,23 @@ tr>.level-up{
 }
 
 #q-img{
-    background-image: url("../images/q.jpg");
+    background-image: url("https://res.cloudinary.com/dksxe1yku/image/upload/v1605824337/q_w8pd2p.jpg");
 }
 
 #w-img{
-    background-image: url("../images/w.jpg");
+    background-image: url("https://res.cloudinary.com/dksxe1yku/image/upload/v1605824337/w_frlt8c.jpg");
 }
 
 #e-img{
-    background-image: url("../images/e.jpg");
+    background-image: url("https://res.cloudinary.com/dksxe1yku/image/upload/v1605824337/e-dash_twomjn.jpg");
 }
 
 #r-img{
-    background-image: url("../images/r.jpg");
+    background-image: url("https://res.cloudinary.com/dksxe1yku/image/upload/v1605824337/r_fd9sdh.jpg");
 }
 
 #passive-img{
-    background-image: url("../images/passive.jpg")
+    background-image: url("https://res.cloudinary.com/dksxe1yku/image/upload/v1605823825/passive_bbc1q0.jpg")
 }
 
 .table-img{
@@ -856,6 +856,11 @@ form{
 }
 
 @media only screen and (max-width: 1200px){
+    .adc-img{
+        height: 130px;
+        width: 130px;
+    }
+
     .plaque{
         margin-bottom: 50px;
     }
