@@ -210,8 +210,8 @@ a:hover{
 .intro-end-gif,
 .combo-gif {
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 5px;
 }
 
@@ -227,15 +227,15 @@ a:hover{
 /*      Page Breaks     */
 .page-break{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
 .page-break-lg{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .page-break img,
@@ -515,8 +515,8 @@ td {
 }
 
 .abilities-wrap{
-    margin-top: 50px;
-    margin-bottom: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .abilities-heading{
