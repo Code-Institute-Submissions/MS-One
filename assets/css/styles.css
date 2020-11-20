@@ -27,6 +27,13 @@ h6{
     padding-bottom: 5px;
 }
 
+.table-head{
+    font-family: 'Playfair Display' , serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
 a:hover{
     text-decoration: none;
 }
@@ -349,7 +356,7 @@ a:hover{
 }
 
 .table {
-    margin: 50px 0px 25px 0px;
+    margin: 0px 0px 25px 0px;
     border-collapse: separate;
     border-spacing: 0.3em;
     width: 100%;
