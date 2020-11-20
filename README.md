@@ -40,22 +40,22 @@ Main features to include are:
 * This was used to save space on mobile viewing devices 
 
 ### Full Width Backgrounds
-* League of Legends is a game with beautiful iamges, called splash arts, used to depict their champions in different settings/situations. I wanted
+* League of Legends is a game with beautiful images, called splash arts, used to depict their champions in different settings/situations. I wanted
 to use these images as full width backgrounds - as a way of showcasing them.
 
 ### Load In Animation
 * Inspired from the courses Love Running project, there's a slight zoom effect as the page is loaded. This brings even more attention to the full width images.
 
 ### Gifs 
-* All gifs are from either in game footage or game cinematics. this helps produce a positive response from users as they can see 
+* All gifs are from either in game footage or game cinematics. This helps produce a positive response from users as they can see 
 chaaracters they may know in action.
 
 ### Font Awesome Icons
 * Font awesome icons help sections/words stand out or link to their content (coin icons referring to the ingame currency gold) which helps elicit a positive
-emotional response from users.
+emotional response from users as they would either recognise the term the icon is paired with or be able to intuitively see what the icon is referring to via its colour.
 
 ### Interactive Cards
-* 3 interactive cards, gold hover effect, with a teaser of the section they link to. Example, the card that describes lucian laning links to 3 of the top supports that he likes to lane with.
+* 3 interactive cards with a gold hover effect and a teaser of the section they link to. Example, the card that describes lucian laning links to 3 of the top supports that he likes to lane with.
 
 ### Responsive table
 * With 18 skill points available to be spent on a champions 4 abilities, a table was the best way to respresent this data. This allows a user to quickly see at glance where to spend 
@@ -91,7 +91,7 @@ Potential features to include:
 guides
 
 ## Technologies Used
-* [HTML](https://www.w3.org/html/) (links to be added)
+* [HTML](https://www.w3.org/html/)
   * Used to create the basic structure of my page
 
 * [Bootstrap](https://getbootstrap.com/)
@@ -108,23 +108,23 @@ guides
   * Giphy was usesd to convert my raw mp4s into gifs. Reducing their file size and lowering the load time of my site. 
 
 * [Nvidia Shadowplay](https://www.nvidia.com/en-gb/geforce/geforce-experience/shadowplay/)
- * Was used to record ingame footage from League of Legends.
+  * Was used to record ingame footage from League of Legends.
 
 * [Github Pages](https://pages.github.com/)
- * Github pages was used to host my live site.
+  * Github pages was used to host my live site.
 
 * [Favicon io](https://favicon.io/)
- * Used to generate a favicon for my webpage
+  * Used to generate a favicon for my webpage
 
 * [Font Awesome Icons](https://fontawesome.com/)
- * Font awesome and their free icons was used for all text icons found in my html.
+  * Font awesome was used for all text icons found in my html.
 
 ## Testing
-Firstly, after opening github I would open my project in a separate window using the command 'python3 -m http.server'. I would have my project open in another window and 
-after altering my code I would save using ctrl + s. To view the result I would refresh product window using ctrl + shift and the refresh button, fully loading the site instead of loading from 
+Firstly, after opening github I would open my project in a separate window using the command 'python3 -m http.server' in a new browser window using port 8000. I would have my project open in another window and 
+after altering my code I would save using ctrl + s. To view the result I would refresh the product window using ctrl + shift and the refresh button, fully loading the site instead of loading from 
 my locally cached version.
 
-The Inspect tool was also critical in testing as I only had my iPhone as another viewing device so I could simulate other device sizes using a this.
+The Inspect tool was also critical in testing as I only had my iPhone as another viewing device so I could simulate other device sizes using the inspect tool.
 
 I have tested my live site in chrome, firefox, Safari, Opera and Microsoft Edge. The feature I was most worried about not translating was the zoom effect when my page loads. 
 From both my live site and my locally launched site, the feature was preserved.
@@ -136,6 +136,7 @@ at from a live perspective. After some trail and error it was pointed out to me 
 * aebc534ddb729601a4473c8576e94ca1daa12407
 * 7e1b6f82c1940e8fa3e57d745cc3c447e76f97ee
 * 692c8ea358e70abefbbf79f7cede323b4688354f 
+
 were my efforts in getting images to load when my page was loaded from the deployed version. After understanding this all images were subsequently added using properly coded file paths.
 Once the project was mostly completed, my images were copied to cloudinary and all src attributes were changed to the corresponding cloudinary url. This was commited and pushed to ensure
 I hadn't made the same mistake.
@@ -145,12 +146,12 @@ according to the context they were placed in and no bugs were encountered in the
 
 The interactive cards were included after a failed carousel. In my wireframes, a 3d carousel is shown and I had wanted to include one however, the one I found wasn't working.
 I had followed the steps set out in the providers documentation and once I ran my code, the carousel wasn't displaying correctly. Checking the console in a running window, one of the script links was 
-unreachable. This was when I decided to scrap the idea of the console and use cards instead. I see cards a lot in web design and wanted to challenge myself to try and duplicate them.
-This was succesful but I after adding my collapse features from bootstrap, I noticed they had a class called 'card'. Rather than toying with bootstrap, I changed my own classes to plaque 
+unreachable. This was when I decided to scrap the idea of the carousel and use cards instead. I see cards a lot in web design and wanted to challenge myself to try and duplicate them.
+This was succesful but I after adding my collapse features from bootstrap, I noticed they had a class called 'card'. Rather than toying with bootstrap, I changed my own classes to "plaque" 
 instead to avoid any conflict as evidenced in this commit:
 * 50056fae62dd32de23e5bfd268df3950dd36a524
 
-The responsive table/images were acheived through using bootstrap classes. Tested through multiple breakpoints using chromes inspect tool. Aspect ratio (of 16:9 to avoid big black bars).
+The responsive table/images were acheived through using bootstrap classes. Tested through multiple breakpoints using chromes inspect tool. Aspect ratio of 16:9 was chosen to avoid big black bars.
 The responsivity activates for the table once it starts to squish and overlap other elements (this behaviour started below 768px so table-responsive-md was used to combat this).
 
 My progress bars have text in them, at very low screen sizes, I found that longer lines of text would wrap onto the next line therefore the text wouldn't display properly within the progress bar.
@@ -165,7 +166,7 @@ For the nav collapse, an icon (in this case I chose the buffer icon as it resemb
 bootstraps java script links. The icon is styled in my css sheet to add visibility.
 
 My favicon worked when running my code locally but wasn't showing when launching my page from the live version. This was because the link elements provided by 
-[Favicon.io](https://favicon.io/) refer to their images using absolute file paths which doesn't work with github pages. After changing all the link paths to relaative, my favicon displayed in my 
+[Favicon.io](https://favicon.io/) refer to their images using absolute file paths which doesn't work with github pages. After changing all the link paths to relative, my favicon displayed in my 
 live page.
 ## Deployment
 Deployment was done through github pages and followed this procedure.
@@ -191,7 +192,7 @@ index page.
 
 https://rankedboost.com/assassin-tier-list/ source of "adc.png, assassin.png, mage.png, tank.png and fighter.png" used as dividers and also decoration/badges next to champions name.
 
-https://leagueoflegends.fandom.com/wiki/ source of all other images in my project. (Used in te rune-tree, abilities section and items section) 
+https://leagueoflegends.fandom.com/wiki/ source of all other images in my project. (Used in the rune-tree, abilities section and items section) 
 
 All gameplay gifs and embed videos I captured myself from the League of Legends game using nvidia shadow play.
 
@@ -199,7 +200,7 @@ The cinematic gif of Lucian battling Thresh came from a [cinematic](https://www.
 
 ## Acknowledgements
 ### w3schools.com
-w3schools was a big help when it came to helping me get my css to do exactly what I wanted. (Specifically my 'plaque' divs)
+w3schools was a big help when it came to helping me get my css to do exactly what I wanted. (Specifically my 'plaque' at lower screen sizes)
 
 ### Lucian's [u.gg page](https://u.gg/lol/champions/lucian/build)
 The inspiration for the responsive bootstrap table came from this site.
