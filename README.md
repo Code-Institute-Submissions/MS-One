@@ -78,6 +78,12 @@ widths.
 ### Contact form 
 * This section showcases use of the boolean atrribute required
 
+### Tooltips 
+ * Tooltips on hover over an element to add more interactivity
+
+### Favicon 
+ * Favicon was used to complete my website, as its the little details that count
+
 ## Features Left to Implement
 Potential features to include:
 * A forum style page where people can post comments about the state of the champ and his best item build path
@@ -157,6 +163,10 @@ My page features two collapse features, one to showcase videos and the other for
 ratio class were added here to ensure a more pleasant viewing experience. Bootstrap documentation was followed here and no issues arose.
 For the nav collapse, an icon (in this case I chose the buffer icon as it resembles the normal 3 bars icon but in a more 3d way) is wrapped in a button with data attributes that are targeted by 
 bootstraps java script links. The icon is styled in my css sheet to add visibility.
+
+My favicon worked when running my code locally but wasn't showing when launching my page from the live version. This was because the link elements provided by 
+[Favicon.io](https://favicon.io/) refer to their images using absolute file paths which doesn't work with github pages. After changing all the link paths to relaative, my favicon displayed in my 
+live page.
 ## Deployment
 Deployment was done through github pages and followed this procedure.
 * Logging on to github and opening my repository -> clicking on the settings tab -> scrolling down to the "GitHub Pages" section -> Under the "Source" heading the master branch was 

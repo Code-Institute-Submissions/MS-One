@@ -37,6 +37,12 @@ a:hover{
     background-color: #0B0A11;
 }
 
+.nav-brand{
+    margin-right: 15px;
+    margin-left: 15px;
+    display: none;
+}
+
 .navbar-nav a{
     text-decoration: none;
     color:#EFF6E0;
@@ -326,6 +332,10 @@ a:hover{
     margin-right: 5px;
 }
 
+.footer-small{
+    font-size: 0.7em;
+}
+
 .icon-hover:hover{
     transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
@@ -542,7 +552,7 @@ td {
     margin-left: 20px;
 }
 
-.collapse{
+.collapse-video{
  margin: auto;
  margin-bottom: 25px;
 }
@@ -806,6 +816,10 @@ form{
 }
 
 @media only screen and (max-width: 768px){
+    .nav-brand{
+        display: inline-block;
+    }
+
     .plaque,
     .intro-text,
     .intro-gif-wrap,
