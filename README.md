@@ -151,8 +151,12 @@ My progress bars have text in them, at very low screen sizes, I found that longe
 I fixed this by using a single line of text short enough to convey meaning.
 
 The contact form posts to a server supplied to us by the course during one of the video modules. The purpose of this was to show use of the boolean attribute "required".
-The response comes in a new window because if it didn't, the only way back to my site would be through the use of the browser's navigation arrows. 
+The response comes in a new window because if it didn't, the only way back to my site would be through the use of the browser's navigation arrows.
 
+My page features two collapse features, one to showcase videos and the other for my navbar. No issues occured with the video collapse feature. Responsive classes and an aspect
+ratio class were added here to ensure a more pleasant viewing experience. Bootstrap documentation was followed here and no issues arose.
+For the nav collapse, an icon (in this case I chose the buffer icon as it resembles the normal 3 bars icon but in a more 3d way) is wrapped in a button with data attributes that are targeted by 
+bootstraps java script links. The icon is styled in my css sheet to add visibility.
 ## Deployment
 Deployment was done through github pages and followed this procedure.
 * Logging on to github and opening my repository -> clicking on the settings tab -> scrolling down to the "GitHub Pages" section -> Under the "Source" heading the master branch was 
