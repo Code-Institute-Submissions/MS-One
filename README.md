@@ -131,6 +131,15 @@ were my efforts in getting images to load when my page was loaded from the deplo
 Once the project was mostly completed, my images were copied to cloudinary and all src attributes were changed to the corresponding cloudinary url. This was commited and pushed to ensure
 I hadn't made the same mistake.
 
+All fontawesome icons were directly copied from their site and their link is placed in the head of my html documents. CSS was used to style all icons 
+according to the context they were placed in and no bugs were encountered in their use.
+
+The interactive cards were included after a failed carousel. In my wireframes, a 3d carousel is shown and I had wanted to include one however, the one I found wasn't working.
+I had followed the steps set out in the providers documentation and once I ran my code, the carousel wasn't displaying correctly. Checking the console in a running window, one of the script links was 
+unreachable. This was when I decided to scrap the idea of the console and use cards instead. I see cards a lot in web design and wanted to challenge myself to try and duplicate them.
+This was succesful but I after adding my collapse features from bootstrap, I noticed they had a class called 'card'. Rather than toying with bootstrap, I changed my own classes to plaque 
+instead to avoid any conflict as evidenced in this commit:
+* 50056fae62dd32de23e5bfd268df3950dd36a524  
 
 ## Deployment
 Deployment was done through github pages and followed this procedure.
