@@ -517,6 +517,16 @@ td {
     margin-bottom: 25px;
 }
 
+.item-img-wrap{
+    text-align: center;
+}
+
+.item-img-wrap>.rounded-circle{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 25px;
+}
+
 .superlative{
     vertical-align: super;
     font-size:0.8em;
@@ -720,7 +730,7 @@ td {
 
 /*      Contacts Page       */
 .contact-heading{
-    width: 275px;
+    width: 300px;
     text-align: center;
 }
 
@@ -733,7 +743,7 @@ td {
 }
 
 .form-control{
-    width: 275px;
+    width: 300px;
     background: #0B0A11;
 }
 
@@ -748,7 +758,7 @@ form{
 
 .wrap-form-gif{
     margin-left: 15px;
-    float: right;
+    float: none;
 }
 
 /*      Media Queries        */
@@ -824,6 +834,8 @@ form{
     .mini-item-banner-text{
         margin:25px auto;
     }
+
+
 }
 
 @media only screen and (max-width: 768px){
