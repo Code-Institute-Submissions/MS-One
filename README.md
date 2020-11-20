@@ -24,15 +24,36 @@ Main features to include are:
 
 ## Features
 ### Full Width Backgrounds
-* League of Legends is a game with beautiful iamges, called splash artd, used to depict their champions in very settings/situations. I wanted
+* League of Legends is a game with beautiful iamges, called splash arts, used to depict their champions in different settings/situations. I wanted
 to use these images as full width backgrounds - as a way of showcasing them.
+
+### Load In Animation
+* Inspired from the courses Love Running project, there's a slight zoom effect as the page is loaded. This brings even more attention to the full width images.
+
+### Gifs 
+* All gifs are from either in game footage or game cinematics. this helps produce a positive response from users as they can see 
+chaaracters they may know in action.
+
+### Font Awesome Icons
+* Font awesome icons help sections/words stand out or link to their content (coin icons referring to the ingame currency gold) which helps elicit a positive
+emotional response from users.
 
 ### Interactive Cards
 * 3 interactive cards, gold hover effect, with a teaser of the section they link to. Example, the card that describes lucian laning links to 3 of the top supports that he likes to lane with.
 
+### Responsive table
+* With 18 skill points available to be spent on a champions 4 abilities, a table was the best way to respresent this data. This allows a user to quickly see at glance where to spend 
+their skill points.
+
 ### Collapse
-I made use of a few collapse elements, sourced from bootstrap, to help me display the abilities I described on my abilities page. 
+* I made use of a few collapse elements, sourced from bootstrap, to help me display the abilities I described on my abilities page. 
 By using a collapse instead of regular iFrames, it helps bring more interactivity into my site whilst also giving users an action to perform whilst using my site.
+
+### Youtube Embed videos
+* Embedding youtube videos of a champions abilities in action, allows the user to visually see the ability in action next to its explanation.
+
+### Bootstrap Progress Bars 
+* A visual representation of data rather than just the usual win-rate with/vs x champion. This will help users understand the why behind the data.
 
 ## Features Left to Implement
 Potential features to include:
@@ -51,6 +72,8 @@ guides
 * CSS
   * Used to make my website unique
 
+* Cloudinary
+  * Cloudinary was used as a CDN to help speed up the load times of my site as all my images are hosted there. 
 ## Testing
 
 
