@@ -36,6 +36,9 @@ Main features to include are:
 * Embed video from YouTube with controls added so video can be paused and started (The video will show gameplay of Lucian and using his abilities)
 
 ## Features
+### Nav Collapse and Icon 
+* This was used to save space on mobile viewing devices 
+
 ### Full Width Backgrounds
 * League of Legends is a game with beautiful iamges, called splash arts, used to depict their champions in different settings/situations. I wanted
 to use these images as full width backgrounds - as a way of showcasing them.
@@ -139,7 +142,16 @@ I had followed the steps set out in the providers documentation and once I ran m
 unreachable. This was when I decided to scrap the idea of the console and use cards instead. I see cards a lot in web design and wanted to challenge myself to try and duplicate them.
 This was succesful but I after adding my collapse features from bootstrap, I noticed they had a class called 'card'. Rather than toying with bootstrap, I changed my own classes to plaque 
 instead to avoid any conflict as evidenced in this commit:
-* 50056fae62dd32de23e5bfd268df3950dd36a524  
+* 50056fae62dd32de23e5bfd268df3950dd36a524
+
+The responsive table/images were acheived through using bootstrap classes. Tested through multiple breakpoints using chromes inspect tool. Aspect ratio (of 16:9 to avoid big black bars).
+The responsivity activates for the table once it starts to squish and overlap other elements (this behaviour started below 768px so table-responsive-md was used to combat this).
+
+My progress bars have text in them, at very low screen sizes, I found that longer lines of text would wrap onto the next line therefore the text wouldn't display properly within the progress bar.
+I fixed this by using a single line of text short enough to convey meaning.
+
+The contact form posts to a server supplied to us by the course during one of the video modules. The purpose of this was to show use of the boolean attribute "required".
+The response comes in a new window because if it didn't, the only way back to my site would be through the use of the browser's navigation arrows. 
 
 ## Deployment
 Deployment was done through github pages and followed this procedure.
@@ -153,6 +165,8 @@ selected and the "root" folder was selected for github to build my page from. ->
 https://css-tricks.com/perfect-full-page-background-image/ -> Here is where I took the css code for the full width backgrounds used in my project
 
 https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page -> Taught me how to link to a specific part of another html page
+
+https://stackoverflow.com/questions/18075794/bootstrap-table-without-stripe-borders from user David Pastore as the bootstrap class table-borderless wasn't getting rid of the borders in my table
 
 # Media
 https://www.leaguesplash.com/wp-content/uploads/2013/09/Lucian-Classic.jpg source of 'full-width-lucian.jpg' The image used for my full
